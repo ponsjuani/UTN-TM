@@ -1,0 +1,9 @@
+index.html se debe llamar el primer archivo html.
+Se refiere a índice, es el primer archivo que abre el servidor al abrir nuestra carpeta
+
+Pseudo codigo, Ayuda a leer la syntaxis
+
+! o html.5 = Esqueleto basico de una pagina
+
+<!--Texto--> Para realizar un comentario sin alterar el texto
+Shortcut o atajo: Alt + Shift + A
