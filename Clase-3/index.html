@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 3</title>
+    <title>BetterGrips | Inicio</title>
 </head>
 <center>
 <body style="background-color: rgb(28, 28, 29);">
     <image src="logo.png" width="500" height="250"> </image>
-    <h1>Los mejores Gimnasios de CABA</h1> <!-- Segundo en la Jerarquia -->
-    <h4><button>
-        <a href="#gyms">Informacion</a>
+    <h1 style="font-size: 3rem">Gimnasios de calidad</h1> <!-- Segundo en la Jerarquia -->
+    <h4 style="font-size: 1rem"><button>
+        <a href="#info">Informacion</a>
         </button>
     </h4>
-    <h2>Ropa deportiva</h2>
+    <h2 style="font-size: 1.5rem">Nuestra Ropa deportiva</h2>
 <!-- No hay que abusar del h1, el navegador no te va a recomendar más, le va a parecer desconfiable muchos h1 -->
     <div>
         <span> 40% Off en las mejores prendas
@@ -22,26 +22,26 @@
     </div>
     <hr> <!-- No necesita cierre, divide informacion -->
     <div>
-        <p>Más Información</p>
-        <button> Ir a la Tienda</button>
+        <button>
+            <b><a href="tienda.html">Ir a la Tienda</a></b>
+        </button>
     </div>
     <div>
-        <h3>Medios de Pago</h3>
+        <h3 style="font-size: 2rem">Medios de Pago</h3>
         <li>Mercado Pago</li><!-- Lista -->
         <li>Transferencias</li>
         <li>Tarjetas de Débito y Crédito</li>
     </div>
     <div>
-        <h3>Informacion</h3>
+        <h3 style="font-size: 2.3rem">Nosotros</h3>
                 <li><b>Remeras</b>
                     <ul>
                         <li>Algodon</li>
                         <li>Lavable y planchable</li>
                         <li>Elastizada</li>
                     </ul>
-
                 </li>
-                <li><b id="gyms">Gimnasios</b>
+                <li><b id="info">Gimnasios</b>
                     <ul>
                         <li>Acevedo 895</li>
                         <li>Av. Sáenz 1090</li>
@@ -54,7 +54,31 @@
         <a href="./navegadores.html" target="_blank">Venta Mayorista</a>
         </button>
     </div>
-    <h3>Contacto: bettergrips.caba@gmail.com</h3> <!-- Tercero en la jerarquia -->
+    <nav>
+        <ol>
+            <li>
+                <b style="font-size: 1.5rem"><a href="./index.html">Inicio</a></b>
+                <ol>
+                    <li><a href="#info">Información</a></li>
+                </ol>
+            </li>
+            <li>
+                <ol>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ol>
+            </li>
+            <li>
+                <ol>
+                    <li><a href="./tienda.html">Tienda</a></li>
+                    <ol>
+                        <li><a href="./navegadores.html">Mayorista</a></li>
+                    </ol>
+                </ol>
+            </li>
+        </ol>
+    </nav>
+    <h3 id="contacto">Contacto: bettergrips.caba@gmail.com</h3> <!-- Tercero en la jerarquia -->
+    <h3>Instagram: <nav><a href="https://www.instagram.com/bettergrips.caba/">bettergrips.caba</a></nav></h3>
 </body>
 </center>
 </html>
