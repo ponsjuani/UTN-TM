@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body style="background-color: rgb(28, 28, 29);">
+    <center>
+    <form>
+        <div>
+            <ol>
+                <h2 style="color: rgb(216, 216, 216);">Informacion del usuario</h2>
+                <label for="username" style="color: rgb(216, 216, 216);">Escribir nombre de usuario</label>
+                <input type="text" id="username" placeholder="Juan Pons" required max="16" minlength="2">
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <label for="email" style="color: rgb(216, 216, 216);" >Ingresa tu Email</label>
+                <input type="email" name="" id="email">
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <label for="password" style="color: rgb(216, 216, 216);">Escribir Contraseña</label>
+                <input type="password" id="password" placeholder="*****">
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <label for="date" style="color: rgb(216, 216, 216);">Fecha</label>
+                <input type="date" name="" id="date">
+                <input type="datetime" name="" id="date">
+                <input type="datetime-local" name="" id="date">
+                <input type="file" name="" id="file" style="color: rgb(216, 216, 216);">
+            </ol>
+        </div>
+        <div>
+            <button style="width: 90px; height: 40px; color:rgb(28, 28, 29);" type="button"> <img src="./assets/images/logo.png" style="width: 20px;">Login</button>
+            <input type="submit" value="Confirmar" style="width: 90px; height: 40px;">
+            <button type="Reset" style="width: 90px; height: 40px;">Reiniciar</button>
+        </div>
+        <div>
+            <ol>
+                <label for="pais">Selecciona tu pais</label>
+                <select name="" id="pais">
+                    <option value="null" selected disabled>Prefiero no decirlo</option>
+                    <option value="ar">Argentina</option>
+                    <option value="br">Brasil</option>
+                </select>
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <label for="reseña" style="color: rgb(216, 216, 216);">¿Como fue tu experiencia con la página?</label>
+                <textarea placeholder="Hola" required rows="5" cols="7"></textarea>
+            </ol>
+        </div>
+    </form>
+</center>
+</body>
+</html>
