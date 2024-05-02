@@ -1,0 +1,23 @@
+@import url(./variables.css);
+@import url(./font.css);
+@import url(./style.css);
+
+div{
+    background-color: rgb(97, 192, 71);/* No se alinea, podes modificar width y high */
+}
+
+span{
+    background-color: brown;/* No se puede modificar high o width, pero se alinean */
+}
+
+.prueba{
+    color: rgb(54, 54, 54);
+    width: 300px;
+    background-color: bisque;
+}
+
+#btn-5{
+    color: rgb(0, 0, 0);
+    width: 604.5px;
+    background-color: bisque;
+}

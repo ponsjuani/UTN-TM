@@ -1,0 +1,16 @@
+@import url(./body.css);
+
+.logo{
+    width: 500px;
+}
+.color{
+    color: blanchedalmond;
+}
+#name-css{
+    color: rgb(207, 207, 207);
+
+}
+/* Selector universal */
+    *{
+        color: rgb(81, 168, 255);
+    }
