@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.padre{
+    background-color: rgb(44, 116, 179);
+    width: 100vw; /* Viewport width */
+    height: 100vh;/* Viewport Height */
+    display:flex; /* Pone un hijo al lado del otro */
+    flex-direction:flex;
+    /* gap: 50px; */ /* Espaciado(Deshabilitado porque no trabaja bien con justify-content:space-between; */
+    justify-content: space-between;/* ":center;" Centrado (X) | :space-between; Separa los hijos utilizando el restante del espacio*/
+    align-items:center; /* Centrado (Y) */
+}
+
+.padre .hijo{
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.padre .hijo:nth-child(2){/* Pseudo clase, llamo a uno de los hijos (2), traer segundo hijo */
+    background-color: brown;
+}
+
+.padre .hijo:first-child{/* Pseudo clase, llamo al primer hijo*/
+    background-color: blue;
+}
