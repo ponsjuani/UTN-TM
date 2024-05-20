@@ -1,5 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 *{
-    background-color:rgb(79, 79, 79);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -29,6 +29,7 @@ span{
 }
 
 .padding{
+    width: 100%;
     width: 344px;
     padding: 10px 15px;
     font-size: 16px;
@@ -72,4 +73,26 @@ a:hover{ /* pseudo clase | Transition: cambio de valores en X tiempo */
     background-color: #d4bf00;
     font-size: 20px;
     transition: 1ms ease-in-out;
+}
+
+.buscador-container{
+    width: 344px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.buscador-container button{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: #b8b8b8;
+    border-left: 1px solid rgb(228, 228, 228);
+}
+
+.buscador-container button:hover{
+    background-color: rgb(240, 240, 240);
 }
